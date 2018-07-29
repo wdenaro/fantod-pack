@@ -1,0 +1,68 @@
+body {
+  font-family: "Raleway", Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.content {
+  display: block;
+  max-width: 414px;
+  min-width: 320px;
+  background-color: #fff;
+  margin: 0 auto; }
+  .content h1 {
+    color: #999;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0; }
+  .content h2 {
+    color: #999;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin: 30px 0 0 0;
+    padding: 20px 0; }
+  .content img.card {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto; }
+  .content a {
+    display: block;
+    color: #999;
+    text-decoration: none; }
+    .content a.cta {
+      font-size: 24px;
+      text-align: center;
+      padding: 20px 0; }
+      .content a.cta:hover {
+        background-color: #f9f9f9; }
+  .content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .content ul li {
+      text-align: center; }
+      .content ul li.italic {
+        font-style: italic; }
+  @media only screen and (min-width: 415px) {
+    .content {
+      max-width: 300px; } }
+  @media only screen and (min-width: 576px) {
+    .content {
+      max-width: 540px; } }
+  @media only screen and (min-width: 768px) {
+    .content h2 {
+      font-size: 24px; } }
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 30px; }
+  footer hr {
+    width: 80%;
+    margin: 60px auto 30px; }
+  footer span {
+    font-weight: 600; }
