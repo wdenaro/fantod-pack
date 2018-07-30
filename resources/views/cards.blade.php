@@ -20,7 +20,9 @@
             <div class="row">
 
                 <div class="col-12 col-md-6">
-                    <a href="<?php echo route('card.show'); ?>"><img class="card_art" src="/images/{{ $src }}"></a>
+                    <div class="card_wrapper">
+                        <a href="<?php echo route('card.show'); ?>"><img class="card_art" src="/images/{{ $src }}"></a>
+                    </div>
                 </div>
                 
                 <div class="col-12 col-md-6">

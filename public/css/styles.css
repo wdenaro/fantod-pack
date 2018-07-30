@@ -24,12 +24,14 @@ body {
     text-align: center;
     margin: 30px 0 0 0;
     padding: 20px 0; }
+  .content .card_wrapper {
+    display: block;
+    padding: 0 30px; }
   .content img.card_art {
     display: block;
     width: 100%;
     height: auto;
-    margin: 0 auto;
-    padding: 8px 24px; }
+    margin: 0 auto; }
   .content a {
     display: block;
     text-decoration: none; }
@@ -57,8 +59,8 @@ body {
   @media only screen and (min-width: 768px) {
     .content h2 {
       font-size: 24px; }
-    .content img.card_art {
-      padding: 8px 0; } }
+    .content .card_wrapper {
+      padding: 0; } }
 
 footer {
   font-size: 12px;

@@ -31,13 +31,17 @@ body {
         padding: 20px 0;
     }
 
+    .card_wrapper {
+        display: block;
+        padding: 0 30px;
+    }
+
     img {
         &.card_art {
             display: block;
             width: 100%;
             height: auto;
             margin: 0 auto;
-            padding: 8px 24px;
         }
     }
 
@@ -84,9 +88,12 @@ body {
             font-size: 24px;
         }
 
+        .card_wrapper {
+            padding: 0;
+        }
+
         img {
             &.card_art {
-                padding: 8px 0;
             }
         }
     }
