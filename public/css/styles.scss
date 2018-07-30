@@ -32,21 +32,22 @@ body {
     }
 
     img {
-        &.card {
+        &.card_art {
             display: block;
             width: 100%;
             height: auto;
             margin: 0 auto;
+            padding: 8px 24px;
         }
     }
 
     a {
         display: block;
-        color: #999;
         text-decoration: none;
 
         &.cta {
             font-size: 24px;
+            color: #999;
             text-align: center;
             padding: 20px 0;
 
@@ -81,6 +82,12 @@ body {
     @media only screen and (min-width: 768px) {
         h2 {
             font-size: 24px;
+        }
+
+        img {
+            &.card_art {
+                padding: 8px 0;
+            }
         }
     }
 }

@@ -24,17 +24,18 @@ body {
     text-align: center;
     margin: 30px 0 0 0;
     padding: 20px 0; }
-  .content img.card {
+  .content img.card_art {
     display: block;
     width: 100%;
     height: auto;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 8px 24px; }
   .content a {
     display: block;
-    color: #999;
     text-decoration: none; }
     .content a.cta {
       font-size: 24px;
+      color: #999;
       text-align: center;
       padding: 20px 0; }
       .content a.cta:hover {
@@ -55,7 +56,9 @@ body {
       max-width: 540px; } }
   @media only screen and (min-width: 768px) {
     .content h2 {
-      font-size: 24px; } }
+      font-size: 24px; }
+    .content img.card_art {
+      padding: 8px 0; } }
 
 footer {
   font-size: 12px;
