@@ -19,6 +19,3 @@ This project is not licensed. It is for personal use.
 * The Edward Gorey Charitable Trust
 * Mother Nature
 * Gravity *(It's the LAW)*
-
-
-
