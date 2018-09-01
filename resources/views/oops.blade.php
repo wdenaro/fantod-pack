@@ -1,12 +1,12 @@
-@include('includes.html_begin')
 
-    <title>{{ config('global.siteTitle') }} | Invalid Card ID</title>
+@extends ('layout')
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link href="/css/styles.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+
+@section ('title')
+    Ooooops!
+@endsection
+
+@section ('content')
 
     <div class="content">
 
@@ -15,6 +15,4 @@
 
     </div>
 
-
-@include('includes.footer')
-@include('includes.html_end')
+@endsection
