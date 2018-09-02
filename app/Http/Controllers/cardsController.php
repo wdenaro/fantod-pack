@@ -9,7 +9,7 @@ class CardsController extends Controller
 {
 
 
-    public function showCard($id = null)
+    public function show($id = null)
     {
         //  Call function to build the Multi-Dimmensional Array of Card data
             $cards = $this->getAllCards();

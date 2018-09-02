@@ -1,10 +1,12 @@
 
-@extends ('layout')
+@extends ('partials.layout')
 
 
 @section ('title')
     Ooooops!
 @endsection
+
+
 
 @section ('content')
 

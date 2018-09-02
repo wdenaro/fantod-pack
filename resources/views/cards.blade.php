@@ -1,10 +1,11 @@
 
-@extends ('layout')
+@extends ('partials.layout')
 
 
 @section ('title')
     Chosen Card
 @endsection
+
 
 @section ('content')
 
