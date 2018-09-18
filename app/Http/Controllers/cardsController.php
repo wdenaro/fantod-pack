@@ -23,7 +23,7 @@ class CardsController extends Controller
                 /*  Otherwise, call function to determine position of specific card in
                     the $cards array. Will return NULL if valid card is not was not found
                     within data. */
-                    $index = $this->getPosition($id, $cards); 
+                    $index = $this->getPosition((int)$id, $cards); 
             }
 
         if (is_null($index)) {
@@ -68,7 +68,7 @@ class CardsController extends Controller
     {
         /*  Returns the index (position) of a specific card ID, -or- if the card ID is not
             valid, will return NULL. */
-            $index = NULL;
+            $index = null;
             $length = count($cards);
 
             for ($n = 0; $n < $length; $n++) {
