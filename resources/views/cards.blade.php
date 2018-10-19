@@ -17,7 +17,7 @@
 
             <div class="col-12 col-md-6">
                 <div class="card_wrapper">
-                    <a href="<?php echo route('card.show'); ?>"><img class="card_art" src="{{ URL::asset('images') }}/{{ $src }}"></a>
+                    <a href="<?php echo route('card.show'); ?>"><img class="card_art" src="{{ asset('images') }}/{{ $src }}"></a>
                 </div>
             </div>
 
